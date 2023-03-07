@@ -9,7 +9,7 @@ contract Count{
     function count() public{
         counter=counter+1;
     }
-    function add() public{
-        counter=counter*counter;
+    function add(uint x) public{
+        counter=counter+x;
     }
 }
